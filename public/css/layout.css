@@ -1,0 +1,100 @@
+@font-face {
+font-family: "Oranienbaum";
+src: url("../fonts/Oranienbaum-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Oranienbaum', serif;
+}
+
+header .navbar {
+    border-bottom: 1px solid #04306d;
+    background-color: rgba(255,255,255,1);
+}
+
+#main-container-fluid {
+    background-image: url("../images/back.png");
+    background-size: cover;
+}
+
+#main-container-fluid .substrate {
+    height: 75px;
+}
+
+#main-container-fluid .logo {
+    padding: 10px 0px;
+    color: rgb(255,255,255);
+}
+
+#main-container-fluid .logo p {
+    padding-top: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#main-container-fluid .logo span {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#main-container-fluid .logo img {
+    width: 100%;
+}
+
+#main-container-fluid .header-text {
+    color: rgb(255,255,255);
+    padding-top: 30px;
+}
+
+#main-container-fluid .header-text h2 {
+    font-size: 50px;
+}
+
+#main-container-fluid .header-text h3 {
+    font-size: 40px;
+}
+
+#main-container-fluid .header-text h5 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#main-container-fluid .header-text p {
+    font-size: 25px;
+}
+
+.color-brand {
+    color: #04306d !important;
+}
+
+.color-subbrand {
+    color: #b1c0d5 !important;
+}
+
+#main-container {
+    padding-bottom: 20px;
+}
+
+#lessons {
+    margin-top: 25px;
+    color: #04306d;
+}
+
+#lessons #lessons-header {
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.lessons-container .block {
+    width: 300px;
+}
+
+.lessons-container .price {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0px;
+    background-color: #efefef;
+    display: inline-block;
+}
