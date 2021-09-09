@@ -15,4 +15,13 @@ class HomeController extends Controller
     {
         return view('home.index');
     }
+
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function lesson($id)
+    {
+        return view('lessons.'.$id);
+    }
 }

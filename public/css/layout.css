@@ -124,13 +124,32 @@ header .navbar .nav-link {
     color: #04306d;
 }
 
-#lessons #lessons-header {
+#lessons #lessons-header h2 {
     font-size: 3em;
     margin-bottom: 25px;
 }
 
+#lessons #lessons-header ul {
+    padding: 0px 25px 0px 30px;
+}
+
+#lessons #lessons-header ul li {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    #lessons #lessons-header ul {
+        margin-bottom: 0px;
+    }
+
+    #lessons #lessons-header ul li {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
+
 .lessons-container .block {
-    width: 300px;
+    width: 350px;
 }
 
 .lessons-container .price {
@@ -139,6 +158,10 @@ header .navbar .nav-link {
     padding: 20px 0px;
     background-color: #efefef;
     display: inline-block;
+}
+
+.lessons-container > div {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -150,4 +173,17 @@ header .navbar .nav-link {
         font-size: 15px;
         padding: 15px 0px;
     }
+}
+
+#lesson-modal .modal-footer {
+    background-color: #04306d;
+}
+
+#lesson-modal .modal-footer .btn {
+    background-color: #efefef;
+    color: #04306d;
+}
+
+#lesson-modal .modal-footer .sign-up-btn {
+    background-color: white;
 }
