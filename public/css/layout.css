@@ -164,6 +164,24 @@ header .navbar .nav-link {
     cursor: pointer;
 }
 
+.lessons-container > div:hover img {
+    background-color: #efefef;
+}
+
+.lessons-container > div:hover p {
+    background-color: #efefef;
+}
+
+.lessons-container > div img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.lessons-container > div p {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 @media (max-width: 768px) {
     .lessons-container .block {
         width: 100%;

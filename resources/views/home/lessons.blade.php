@@ -23,27 +23,27 @@
         </div>
         <div class="row lessons-container">
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="five" data-title="Подготовка к ОГЭ\ЕГЭ">
-                <img class="block" src="/images/lesson_five.jpg" alt="Lesson Five">
+                <img class="block" src="/images/lesson_five.png" alt="Lesson Five">
                 <p class="price block">от 1 000 ₽ / час</p>
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="six" data-title="Разговорный клуб">
-                <img class="block" src="/images/lesson_six.jpg" alt="Lesson Six">
+                <img class="block" src="/images/lesson_six.png" alt="Lesson Six">
                 <p class="price block">Индивидуально</p>
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="one" data-title="Групповые занятия (1-4 класс)">
-                <img class="block" src="/images/lesson_one.jpg" alt="Lesson One">
+                <img class="block" src="/images/lesson_one.png" alt="Lesson One">
                 <p class="price block">3 900 – 5 200 ₽ / мес.</p>
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="two" data-title="Групповые занятия (5-6 класс)">
-                <img class="block" src="/images/lesson_two.jpg" alt="Lesson Two">
+                <img class="block" src="/images/lesson_two.png" alt="Lesson Two">
                 <p class="price block">4 200 – 5 600 ₽ / мес.</p>
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="three" data-title="Групповые занятия (7-11 класс)">
-                <img class="block" src="/images/lesson_three.jpg" alt="Lesson Three">
+                <img class="block" src="/images/lesson_three.png" alt="Lesson Three">
                 <p class="price block">4 500 – 6 000 ₽ / мес.</p>
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="four" data-title="Подготовка к ОГЭ\ЕГЭ">
-                <img class="block" src="/images/lesson_four.jpg" alt="Lesson Four">
+                <img class="block" src="/images/lesson_four.png" alt="Lesson Four">
                 <p class="price block">Индивидуально</p>
             </div>
         </div>
