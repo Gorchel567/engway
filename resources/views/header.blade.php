@@ -14,7 +14,7 @@
                         <a class="nav-link" href="#about">Обо Мне</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#review">Отзывы</a>
+                        <a class="nav-link" href="#reviews">Отзывы</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacts">Контакты</a>
