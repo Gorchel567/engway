@@ -18,6 +18,10 @@ header .navbar .nav-link {
     font-size: 18px;
 }
 
+.mg-btm-15 {
+    margin-bottom: 15px;
+}
+
 .eng-color-blue {
     color: #04306d;
 }
@@ -247,5 +251,40 @@ header .navbar .nav-link {
     #reviews .review-block img {
         width: 40%;
         margin-bottom: 10px;
+    }
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("../images/back.png");
+    background-size: cover;
+    color: white;
+    font-size: 26px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer .soc i {
+    color: white;
+}
+
+footer .soc:hover i {
+    color: #6c757d;
+}
+
+footer .map {
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 24px;
+    }
+
+    footer .map {
+        min-height: 300px;
     }
 }
