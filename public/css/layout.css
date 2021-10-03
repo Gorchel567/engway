@@ -279,6 +279,15 @@ footer .map {
     min-height: 400px;
 }
 
+footer .footer-phone {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-phone:hover {
+    color: #6c757d;
+}
+
 @media (max-width: 768px) {
     footer {
         font-size: 24px;
