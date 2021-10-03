@@ -18,6 +18,14 @@ header .navbar .nav-link {
     font-size: 18px;
 }
 
+.eng-color-blue {
+    color: #04306d;
+}
+
+.eng-height-two {
+    height: 2px;
+}
+
 #main-container-fluid {
     background-image: url("../images/back.png");
     background-size: cover;
@@ -124,11 +132,6 @@ header .navbar .nav-link {
     color: #04306d;
 }
 
-#lessons #lessons-header h2 {
-    font-size: 3em;
-    margin-bottom: 25px;
-}
-
 #lessons #lessons-header ul {
     padding: 0px 25px 0px 80px;
 }
@@ -206,4 +209,43 @@ header .navbar .nav-link {
 
 #lesson-modal .modal-footer .sign-up-btn {
     background-color: white;
+}
+
+.section-header {
+    font-size: 3em;
+    margin-bottom: 25px;
+    color: #04306d;
+}
+
+#reviews {
+    margin-top: 25px;
+}
+
+#reviews .owl-carousel {
+    margin-top: 30px;
+}
+
+#reviews .review-block img {
+    display: inline-block;
+    border-radius: 50px;
+    width: 100%;
+}
+
+#reviews .review-block .reviews-header-title {
+    font-size: 18px;
+}
+
+#reviews .review-block .reviews-text {
+    font-size: 15px;
+}
+
+#reviews .owl-dot.active span {
+    background-color: #04306d;
+}
+
+@media (max-width: 768px) {
+    #reviews .review-block img {
+        width: 40%;
+        margin-bottom: 10px;
+    }
 }

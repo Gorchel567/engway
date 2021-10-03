@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col" id="lessons-header">
-                <h2 class="text-center">Мои занятия</h2>
+                <h2 class="text-center section-header">Мои занятия</h2>
                 <div class="row">
                     <div class="col-lg-6 col-12">
                         <ul>
