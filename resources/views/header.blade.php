@@ -20,7 +20,7 @@
                         <a class="nav-link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
-                <a class="navbar-text" href="tel:79312371673">+7 (931) 237-16-73</a>
+                <a class="navbar-text phone" href="tel:79312371673">+7 (931) 237-16-73</a>
             </div>
         </div>
     </nav>

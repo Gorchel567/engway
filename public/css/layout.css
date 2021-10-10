@@ -18,6 +18,11 @@ header .navbar .nav-link {
     font-size: 18px;
 }
 
+header .phone {
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .mg-btm-15 {
     margin-bottom: 15px;
 }
@@ -213,6 +218,28 @@ header .navbar .nav-link {
 
 #lesson-modal .modal-footer .sign-up-btn {
     background-color: white;
+}
+
+#about-wrapper {
+    background-image: url("../images/back.png");
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+#about-wrapper .text-underline {
+    display: inline-block;
+    border-bottom: 1px solid #4d6b97;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    #about-wrapper {
+        font-size: 16px;
+    }
 }
 
 .section-header {
