@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col text-center">
                         <p>г. Санкт-Петербург</p>
-                        <p>метро. Парнас</p>
+                        <p>метро Парнас</p>
                         <p>ул. Федора Абрамова д. 8</p>
                         <p><a class="footer-phone" href="tel:79312371673">+7 (931) 237-16-73</a></p>
                     </div>
