@@ -23,9 +23,9 @@
             </div>
         </div>
         <div class="row lessons-container">
-            <div class="col-lg-6 col-6 text-center lessons-block" data-id="five" data-title="Подготовка к ОГЭ\ЕГЭ">
+            <div class="col-lg-6 col-6 text-center lessons-block" data-id="five" data-title="Индивидуальные занятия">
                 <img class="block" src="/images/lesson_five.png" alt="Lesson Five">
-                <p class="price block">от 1 000 ₽ / час</p>
+                <p class="price block">от 1 300 ₽ / час</p>
             </div>
             <!--<div class="col-lg-4 col-6 text-center lessons-block" data-id="six" data-title="Разговорный клуб">-->
             <!--    <img class="block" src="/images/lesson_six.png" alt="Lesson Six">-->
