@@ -27,6 +27,10 @@ header .phone {
     margin-bottom: 15px;
 }
 
+.mg-btm-5 {
+    margin-bottom: 5px;
+}
+
 .eng-color-blue {
     color: #04306d;
 }
@@ -207,16 +211,51 @@ header .phone {
     }
 }
 
-#lesson-modal .modal-footer {
+.eng-modal .modal-footer {
     background-color: #04306d;
 }
 
-#lesson-modal .modal-footer .btn {
+.eng-modal .modal-footer .btn {
     background-color: #efefef;
     color: #04306d;
 }
 
-#lesson-modal .modal-footer .sign-up-btn {
+.sign-up-btn {
+    border: 1px solid #04306d;
+}
+
+header .sign-up-btn {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    header .sign-up-btn {
+        margin-left: 0px;
+    }
+}
+
+header .sign-up-btn:hover {
+    color: white;
+    background-color: #04306d;
+}
+
+#signup-modal .form-group {
+    margin-bottom: 10px;
+}
+
+#signup-modal .soc {
+    font-size: 30px;
+    margin: 0px 10px;
+    color: #04306d;
+    text-decoration: none;
+}
+
+#signup-modal .soc:hover {
+    color: black;
+}
+
+.eng-modal .modal-footer .sign-up-btn {
     background-color: white;
 }
 

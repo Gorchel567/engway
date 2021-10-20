@@ -21,6 +21,8 @@
                     </li>
                 </ul>
                 <a class="navbar-text phone" href="tel:79312371673">+7 (931) 237-16-73</a>
+                <hr class="d-lg-none xs-devices">
+                <button type="button" class="btn sign-up-btn">Записаться</button>
             </div>
         </div>
     </nav>

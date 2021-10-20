@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+
 /**
  * Class HomeController
  * @package App\Http\Controllers
@@ -42,5 +45,15 @@ class HomeController extends Controller
     public function lesson($id)
     {
         return view('lessons.'.$id);
+    }
+
+    /**
+     * @param Request $request
+     */
+    public function signup(Request $request)
+    {
+        Log::info($request->all());
+
+        return redirect('/');
     }
 }

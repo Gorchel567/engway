@@ -22,7 +22,12 @@ $(document).ready(function() {
                     myModal.show();
                 }
             });
-    })
+    });
+
+    $('body').on('click', '.sign-up-btn', function() {
+        $('#lesson-modal').modal('hide');
+        $('#signup-modal').modal('show');
+    });
 
     // Owl Carousel
     var owl = $("#reviews .owl-carousel");
