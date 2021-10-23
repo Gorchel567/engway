@@ -27,7 +27,7 @@
                     </div>
                     <div class="row">
                         <div class="col text-center">
-                            <p>Елизавета Рогозина, <span class="color-subbrand">Преподователь английского языка</span></p>
+                            <p>Елизавета Рогозина, <span class="color-subbrand">Преподаватель английского языка</span></p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="offset-lg-1 col-3 logo text-center d-none d-md-block">
                     <img src="/images/photo.png" alt="">
                     <p class="color-subbrand">Елизавета Рогозина</p>
-                    <span>Преподователь английского языка</span>
+                    <span>Преподаватель английского языка</span>
                 </div>
             </div>
         </div>
