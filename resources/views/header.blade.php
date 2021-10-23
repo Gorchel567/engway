@@ -11,6 +11,9 @@
                         <a class="nav-link" aria-current="page" href="#lessons">Занятия</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Галлерея</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#about">Обо Мне</a>
                     </li>
                     <li class="nav-item">

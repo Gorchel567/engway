@@ -19,6 +19,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //reviews
         $reviews = array_map(function($review) {
             if (strlen($review['text']) > self::REVIEW_STR_COUNT) {
                 $review['text'] = (mb_substr($review['text'],0, self::REVIEW_STR_COUNT)).'...';
@@ -31,8 +32,14 @@ class HomeController extends Controller
             return $review;
         }, config('reviews'));
 
+        //gallery
+        $gallery = array_map(function($photoName) {
+            return '/images/gallery/'.$photoName;
+        }, config('gallery'));
+
         $data = [
-            'reviews' => $reviews
+            'reviews' => $reviews,
+            'gallery' => $gallery,
         ];
 
         return view('home.index', $data);
