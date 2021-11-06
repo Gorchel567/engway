@@ -27,7 +27,7 @@
                     </div>
                     <div class="row">
                         <div class="col text-center">
-                            <p>Елизавета Рогозина, <span class="color-subbrand">Преподователь английского языка</span></p>
+                            <p>Елизавета Рогозина, <span class="color-subbrand">Преподаватель английского языка</span></p>
                         </div>
                     </div>
                 </div>
@@ -38,16 +38,19 @@
                         <h5 class="color-subbrand">Если хотите заговорить на английском с первых занятий, то вы в правильном месте :)
                         </h5>
                     </div>
-                    <div class="col text-center header-text">
+                    <div class="col text-start header-text">
                         <p>
                             Меня зовут Елизавета, вот уже более 6 лет я с большим удовольствием преподаю английский язык как детям, так и взрослым - индивидуально и в мини-группах.
+                        </p>
+                        <p>
+                            Cо мной вы можете улучшить свой разговорный английский, подготовиться к международным  экзаменам (KET/PET/FCE) и ОГЭ/ЕГЭ, а также прокачать английский для работы.
                         </p>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-3 logo text-center d-none d-md-block">
                     <img src="/images/photo.png" alt="">
                     <p class="color-subbrand">Елизавета Рогозина</p>
-                    <span>Преподователь английского языка</span>
+                    <span>Преподаватель английского языка</span>
                 </div>
             </div>
         </div>

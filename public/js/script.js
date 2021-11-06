@@ -36,4 +36,12 @@ $(document).ready(function() {
         margin: 10,
         loop: true,
     });
+
+    // Owl Carousel
+    var owl = $("#gallery .owl-carousel");
+    owl.owlCarousel({
+        items: 3,
+        margin: 10,
+        loop: true,
+    });
 });

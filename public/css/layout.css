@@ -200,6 +200,11 @@ header .phone {
     border-bottom-right-radius: 15px;
 }
 
+#gallery {
+    padding: 25px 0px;
+    background-color: rgba(239,239,239,0.3);
+}
+
 @media (max-width: 768px) {
     .lessons-container .block {
         width: 100%;
@@ -309,8 +314,8 @@ header .sign-up-btn:hover {
     font-size: 15px;
 }
 
-#reviews .owl-dot.active span {
-    background-color: #04306d;
+.owl-dot.active span {
+    background-color: #04306d !important;
 }
 
 @media (max-width: 768px) {

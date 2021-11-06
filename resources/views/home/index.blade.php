@@ -3,6 +3,7 @@
 @section("content")
     @include('home.main')
     @include('home.lessons')
+    @include('home.gallery_default')
     @include('home.about')
     @include('home.reviews')
     @include('home.modals')
