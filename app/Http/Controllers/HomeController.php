@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use App\Helpers\TelegramBot;
 
 /**
  * Class HomeController
@@ -52,7 +53,13 @@ class HomeController extends Controller
      */
     public function signup(Request $request)
     {
-        Log::info($request->all());
+        $chatId = env('TELEGRAM_ENGWAY_CHAT_TOKEN');
+
+        $text = "Новая запись: \n\r";
+        $text .= "ФИО: ".$request->get('name')." \n\r";
+        $text .= "Телефон: ".$request->get('phone')." \n\r";
+
+        TelegramBot::send($chatId, $text);
 
         return redirect('/');
     }
