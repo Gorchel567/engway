@@ -1,4 +1,4 @@
-<article id="main">
+<article id="main" class="back-blue-img">
     <div class="container-fluid" id="main-container-fluid">
         <div class="row substrate"></div>
         <div class="container" id="main-container">

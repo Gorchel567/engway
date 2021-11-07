@@ -39,7 +39,7 @@ header .phone {
     height: 2px;
 }
 
-#main-container-fluid {
+.back-blue-img {
     background-image: url("../images/back.png");
     background-size: cover;
 }
@@ -126,6 +126,11 @@ header .phone {
     #main-container-fluid .header-text p {
         font-size: 20px;
     }
+}
+
+#diploma h2 {
+    color: white;
+    margin-top: 15px;
 }
 
 .color-brand {
@@ -314,7 +319,7 @@ header .sign-up-btn:hover {
     font-size: 15px;
 }
 
-.owl-dot.active span {
+.blue-dot .owl-dot.active span {
     background-color: #04306d !important;
 }
 

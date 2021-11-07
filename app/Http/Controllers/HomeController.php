@@ -38,9 +38,15 @@ class HomeController extends Controller
             return '/images/gallery/'.$photoName;
         }, config('gallery'));
 
+        //diploma
+        $diploma = array_map(function($photoName) {
+            return '/images/diploma/'.$photoName;
+        }, config('diploma'));
+
         $data = [
             'reviews' => $reviews,
             'gallery' => $gallery,
+            'diploma' => $diploma,
         ];
 
         return view('home.index', $data);

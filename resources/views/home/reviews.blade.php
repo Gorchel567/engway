@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="text-center section-header">Отзывы</h2>
         <hr class="eng-color-blue eng-height-two" />
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme blue-dot">
             @foreach ($reviews as $review)
             <div class="row review-block">
                 <div class="col-lg-2 col-12 text-center">
