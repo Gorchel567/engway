@@ -9,7 +9,6 @@
                 <div class="col text-center header-text">
                     <h2 class="color-subbrand">Курсы английского языка</h2>
                     <h3>В группах и индивидуально онлайн и оффлайн</h3>
-                    <h4 class="color-subbrand">М. ПАРНАС, УЛ. ФЕДОРА АБРАМОВА Д. 8</h4>
                 </div>
             </div>
             <div class="row d-lg-none xs-devices">
