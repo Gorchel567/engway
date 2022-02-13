@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link href="/css/layout.css?{{time()}}" rel="stylesheet">
 
     <title>The Eng Way</title>
@@ -25,6 +26,7 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.js" crossorigin="anonymous"></script>
     <script src="/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="/js/script.js?{{time()}}" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -72,6 +72,10 @@ class HomeController extends Controller
         $text .= "ФИО: ".$request->get('name')." \n\r";
         $text .= "Телефон: ".$request->get('phone')." \n\r";
 
+        foreach($request->except(['name', 'phone', '_token']) as $key => $value) {
+            $text .= ($key.": ".$value." \n\r");
+        }
+
         TelegramBot::send($chatId, $text);
 
         return redirect('/');

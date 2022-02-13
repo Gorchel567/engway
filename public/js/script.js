@@ -52,4 +52,8 @@ $(document).ready(function() {
         margin: 10,
         loop: true,
     });
+
+    $('.select2-input').select2({
+        dropdownParent: $('#signup-modal .modal-body')
+    });
 });
