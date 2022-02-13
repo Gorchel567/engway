@@ -7,8 +7,8 @@
                     <img src="/images/logo.png" alt="">
                 </div>
                 <div class="col text-center header-text">
-                    <h2 class="color-subbrand">Курсы английского языка</h2>
-                    <h3>В группах и индивидуально онлайн и оффлайн</h3>
+                    <h2 class="color-subbrand">Индивидуальные занятия</h2>
+                    <h3>для подростков и взрослых</h3>
                 </div>
             </div>
             <div class="row d-lg-none xs-devices">

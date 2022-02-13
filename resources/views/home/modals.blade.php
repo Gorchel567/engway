@@ -32,7 +32,6 @@
                         <label for="phone">Телефон<sup>*</sup></label>
                         <input type="text" name="phone" class="form-control" required="required">
                     </div>
-                    </hr>
                     <div class="form-group">
                         <label for="phone">Где удобно связаться?</label><br/>
                         <select name="phone" class="select2-input form-control">
