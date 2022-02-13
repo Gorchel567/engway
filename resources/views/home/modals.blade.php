@@ -33,8 +33,8 @@
                         <input type="text" name="phone" class="form-control" required="required">
                     </div>
                     <div class="form-group">
-                        <label for="phone">Где удобно связаться?</label><br/>
-                        <select name="phone" class="select2-input form-control">
+                        <label for="social">Где удобно связаться?</label><br/>
+                        <select name="social" class="select2-input form-control">
                             <option value="phone">Телефон</option>
                             <option value="telegram">Телеграм</option>
                             <option value="vk">Вконтакте</option>
