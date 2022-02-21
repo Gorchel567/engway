@@ -25,7 +25,6 @@
                     <div class="col-sm-12 col-md-4 diploma-block" data-src="4.PNG">
                         <img src="/images/diploma/4.PNG" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-4"></div>
                     <div class="col-sm-12 col-md-4">
                         <div class="row">
                             <div class="col col-md-12 diploma-block" data-src="3.PNG">
@@ -36,6 +35,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-4"></div>
                 </div>
             </div>
         </div>
