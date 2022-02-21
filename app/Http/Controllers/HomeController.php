@@ -39,14 +39,14 @@ class HomeController extends Controller
         }, config('gallery'));
 
         //diploma
-        $diploma = array_map(function($photoName) {
-            return '/images/diploma/'.$photoName;
-        }, config('diploma'));
+//        $diploma = array_map(function($photoName) {
+//            return '/images/diploma/'.$photoName;
+//        }, config('diploma'));
 
         $data = [
             'reviews' => $reviews,
             'gallery' => $gallery,
-            'diploma' => $diploma,
+//            'diploma' => $diploma,
         ];
 
         return view('home.index', $data);

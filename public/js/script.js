@@ -29,6 +29,13 @@ $(document).ready(function() {
         $('#signup-modal').modal('show');
     });
 
+    $('body').on('click', '.diploma-block', function() {
+        var imgSrc = $(this).data('src');
+
+        $('#diploma-modal-body').html("<img src='/images/diploma/"+imgSrc+"'>");
+        $('#diploma-modal').modal('show');
+    });
+
     // Owl Carousel
     var owl = $("#reviews .owl-carousel");
     owl.owlCarousel({

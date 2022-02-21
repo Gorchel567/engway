@@ -230,6 +230,18 @@ header .phone {
     color: #04306d;
 }
 
+.eng-modal .modal-footer {
+    background-color: #04306d;
+}
+
+.eng-modal .modal-header.dark {
+    background-color: #04306d;
+}
+
+.eng-modal .modal-header.dark .btn-close {
+   color: white;
+}
+
 .sign-up-btn {
     border: 1px solid #04306d;
 }
@@ -376,4 +388,33 @@ footer .footer-phone:hover {
 
 span.select2 {
     width: 100% !important;
+}
+
+#diploma {
+    padding-bottom: 20px;
+}
+
+.diploma-block {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.diploma-block img {
+    width: 100%;
+}
+
+.diploma-block:hover {
+    background-color: #f1f1f1;
+}
+
+#diploma-modal img {
+    width: 100%;
+}
+
+#diploma-modal .modal-body {
+    padding: 0px !important;
 }
