@@ -35,7 +35,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4"></div>
+                    <div class="col-sm-12 col-md-4 diploma-block" data-src="8.jpeg">
+                        <img src="/images/diploma/8.jpeg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
