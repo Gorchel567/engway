@@ -6,7 +6,7 @@
                 <hr>
                 <div class="row mg-btm-15">
                     <div class="col text-center">
-                        <a href="https://www.instagram.com/the.eng.way/?utm_medium=site" target="_blank" class="soc">
+                        <a href="https://instagram.com/liza_the.eng.way/?utm_medium=site" target="_blank" class="soc">
                             <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                         </a>
                     </div>
