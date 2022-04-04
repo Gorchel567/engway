@@ -18,7 +18,7 @@
                             <hr class="color-subbrand">
                         </div>
                         <div class="col-4 logo text-center">
-                            <img src="/images/photo.png" alt="" class="w-100">
+                            <img src="/images/photo.webp" alt="" class="w-100">
                         </div>
                         <div class="col">
                             <hr class="color-subbrand">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="offset-lg-1 col-3 logo text-center d-none d-md-block">
-                    <img src="/images/photo.png" alt="">
+                    <img src="/images/photo.webp" alt="">
                     <p class="color-subbrand">Елизавета Рогозина</p>
                     <span>Преподаватель английского языка</span>
                 </div>
