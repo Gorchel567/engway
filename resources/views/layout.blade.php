@@ -14,7 +14,11 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link href="/css/layout.css?{{time()}}" rel="stylesheet">
 
-    <title>The Eng Way</title>
+    <meta property="og:title" content="Курсы английского языка - TheEngWay" />
+    <meta property="og:description" content="Индивидуальные занятия для подростков и взрослых" />
+    <meta property="og:image" content="/images/logo.png" />
+
+    <title>Курсы английского языка - TheEngWay</title>
 </head>
 <body>
     @include('header')
