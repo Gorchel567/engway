@@ -8,7 +8,7 @@
                 </div>
                 <div class="col header-text d-none d-md-block">
                     <h3 class="text-start mg-l-100">General English</h3>
-                    <h3 class="text-center">English for specific purposes (ESP)</h3>
+                    <h3 class="text-center">English for Specific Purposes (ESP)</h3>
                     <h3 class="text-end">Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)</h3>
                 </div>
                 <div class="col d-lg-none xs-devices header-text text-center">
