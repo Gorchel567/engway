@@ -99,6 +99,10 @@ header .phone {
         padding-top: 10px;
     }
 
+    #main-container-fluid .header-text h3 {
+        font-size: 28px;
+    }
+
     #main-container-fluid .header-text h2 {
         font-size: 30px;
     }
@@ -146,26 +150,43 @@ header .phone {
 }
 
 #lessons {
-    margin-top: 25px;
+    padding-top: 25px;
+    background-image: url("../images/back.png");
+    background-size: cover;
+    color: white;
+}
+
+#lessons ul li {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #lessons ul li {
+        font-size: 16px;
+    }
+}
+
+#prices {
+    padding-top: 25px;
     color: #04306d;
 }
 
-#lessons #lessons-header ul {
+#prices #lessons-header ul {
     padding: 0px 25px 0px 80px;
 }
 
-#lessons #lessons-header ul li {
+#prices #lessons-header ul li {
     font-size: 18px;
     text-align: justify;
 }
 
 @media (max-width: 768px) {
-    #lessons #lessons-header ul {
+    #prices #lessons-header ul {
         padding: 0px 25px 0px 30px;
         margin-bottom: 0px;
     }
 
-    #lessons #lessons-header ul li {
+    #prices #lessons-header ul li {
         font-size: 16px;
         margin-bottom: 5px;
     }
@@ -282,12 +303,13 @@ header .sign-up-btn:hover {
 }
 
 #about-wrapper {
-    background-image: url("../images/back.png");
-    background-size: cover;
-    color: white;
+    /*background-image: url("../images/back.png");*/
+    /*background-size: cover;*/
+    /*color: white;*/
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 20px;
+    color: #04306d;
 }
 
 #about-wrapper .text-underline {
@@ -307,6 +329,10 @@ header .sign-up-btn:hover {
     font-size: 3em;
     margin-bottom: 25px;
     color: #04306d;
+}
+
+.section-header.white {
+    color: white;
 }
 
 #reviews {
@@ -417,4 +443,8 @@ span.select2 {
 
 #diploma-modal .modal-body {
     padding: 0px !important;
+}
+
+.mg-l-100 {
+    margin-left: 100px;
 }

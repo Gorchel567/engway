@@ -6,9 +6,15 @@
                 <div class="offset-lg-1 col-lg-2 text-center logo">
                     <img src="/images/logo.png" alt="">
                 </div>
-                <div class="col text-center header-text">
-                    <h2 class="color-subbrand">Индивидуальные занятия</h2>
-                    <h3>для подростков и взрослых</h3>
+                <div class="col header-text d-none d-md-block">
+                    <h3 class="text-start mg-l-100">General English</h3>
+                    <h3 class="text-center">English for specific purposes (ESP)</h3>
+                    <h3 class="text-end">Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)</h3>
+                </div>
+                <div class="col d-lg-none xs-devices header-text text-center">
+                    <h3>General English</h3>
+                    <h3>English for specific purposes (ESP)</h3>
+                    <h3>Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)</h3>
                 </div>
             </div>
             <div class="row d-lg-none xs-devices">
