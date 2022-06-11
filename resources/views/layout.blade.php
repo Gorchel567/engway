@@ -18,6 +18,8 @@
     <meta property="og:description" content="Индивидуальные занятия для подростков и взрослых" />
     <meta property="og:image" content="/images/logo.png" />
 
+    <link rel="canonical" href="{{env('APP_URL')}}">
+
     <title>Курсы английского языка - TheEngWay</title>
 </head>
 <body>
