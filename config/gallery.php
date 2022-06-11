@@ -10,6 +10,6 @@ return [
     '7.webp',
     '8.webp',
     '9.webp',
-    '10.JPG',
-    '11.JPG',
+    '10.webp',
+    '11.webp',
 ];

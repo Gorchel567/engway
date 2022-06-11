@@ -4,7 +4,7 @@
         <div class="container" id="main-container">
             <div class="row">
                 <div class="offset-lg-1 col-lg-2 text-center logo">
-                    <img src="/images/logo.png" alt="">
+                    <img src="/images/logo.webp" alt="">
                 </div>
                 <div class="col header-text d-none d-md-block">
                     <h3 class="text-start mg-l-100">General English</h3>
