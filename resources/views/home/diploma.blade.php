@@ -31,7 +31,7 @@
                                 <img src="/images/diploma/3.webp" alt="">
                             </div>
                             <div class="col col-md-12 diploma-block" data-src="7.PNG">
-                                <img src="/images/diploma/7.PwebpNG" alt="">
+                                <img src="/images/diploma/7.webp" alt="">
                             </div>
                         </div>
                     </div>
