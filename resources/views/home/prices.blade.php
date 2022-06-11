@@ -31,15 +31,15 @@
 {{--                <p class="price block">Индивидуально</p>--}}
 {{--            </div>--}}
 
-            <div class="col-lg-4 col-6 text-center lessons-block" data-id="general" data-title="Общий Английский">
+            <div class="col-lg-4 col-6 text-center lessons-block" data-id="general" data-title="General English">
                 <img class="block" src="/images/lesson_general.png" alt="Lesson general">
                 <p class="price block">1500 ₽ / час</p>
             </div>
-            <div class="col-lg-4 col-6 text-center lessons-block" data-id="exam" data-title="Подготовка к экзаменам">
+            <div class="col-lg-4 col-6 text-center lessons-block" data-id="exam" data-title="Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)">
                 <img class="block" src="/images/lesson_exam.png" alt="Lesson exam">
                 <p class="price block">1800 ₽ / час</p>
             </div>
-            <div class="col-lg-4 offset-lg-0 offset-3 col-6 text-center lessons-block" data-id="special" data-title='Английский для "узких" целей'>
+            <div class="col-lg-4 offset-lg-0 offset-3 col-6 text-center lessons-block" data-id="special" data-title='English for specific purpose (ESP)'>
                 <img class="block" src="/images/lesson_special.png" alt="Lesson special">
                 <p class="price block">1800 ₽ / час</p>
             </div>
