@@ -16,5 +16,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="docker" />
+    <orderEntry type="module" module-name="docker" />
   </component>
 </module>
