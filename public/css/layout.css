@@ -448,3 +448,15 @@ span.select2 {
 .mg-l-100 {
     margin-left: 100px;
 }
+
+#private-page {
+    padding-top: 80px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+#footer-info a {
+    color: white;
+}

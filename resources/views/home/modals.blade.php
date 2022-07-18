@@ -86,10 +86,14 @@
                     <div class="form-group">
                         <label for="lesson_time">Какое время для занятий предпочитаете?</label><br/>
                         <select name="lesson_time" class="select2-input">
-                            <option value="morning">Утро</option>
-                            <option value="day">День</option>
-                            <option value="evening">Вечер</option>
+                            <option value="morning">Утро (8:00-12:00)</option>
+                            <option value="day">День (13:00-18:00)</option>
+{{--                            <option value="evening">Вечер</option>--}}
                         </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="accept_terms" required="required">
+                        Я принимаю <a href="/private" target="_blank" style="color: #04306d; text-decoration: underline;">соглашение об обработке персональных данных</a>
                     </div>
                     <p class="text-center mg-btm-5">Или свяжитесь в любой соц. сети</p>
                     <div class="text-center">

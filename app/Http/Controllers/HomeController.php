@@ -62,6 +62,14 @@ class HomeController extends Controller
     }
 
     /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function private()
+    {
+        return view('home.private');
+    }
+
+    /**
      * @param Request $request
      */
     public function signup(Request $request)

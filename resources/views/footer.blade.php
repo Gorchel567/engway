@@ -25,6 +25,12 @@
                         <p><a class="footer-phone" href="tel:79312371673">+7 (931) 237-16-73</a></p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12" id="footer-info">
+                        <p class="text-center fs-12"><a href="/private" target="_blank">Соглашение об обработке персональных данных</a></p>
+                        <p class="text-center fs-12">СЗ Рогозина Елизавета Владимировна (ИНН 782002419721), 2011-2022 г. Все права защищены.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
