@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="text-center section-header">Дипломы</h2>
+                <h2 class="text-center section-header">Образование</h2>
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
                         <div class="row">
