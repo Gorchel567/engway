@@ -44,5 +44,19 @@
                 <p class="price block">2000 ₽ / час</p>
             </div>
         </div>
+        <div class="row lessons-container">
+            <div class="col-lg-4 col-6 text-center lessons-block" data-id="groups" data-title="Подготовка к ОГЭ (мини-группы)">
+                <img class="block" src="/images/lesson_groups.webp" alt="Lesson groups OGE">
+                <p class="price block">5100 ₽ / час</p>
+            </div>
+            <div class="col-lg-4 col-6 text-center lessons-block" data-id="groups-ege" data-title="Подготовка к ЕГЭ (мини-группы)">
+                <img class="block" src="/images/lesson_ege_groups.webp" alt="Lesson groups EGE">
+                <p class="price block">5100 ₽ / час</p>
+            </div>
+            <div class="col-lg-4 col-6 text-center lessons-block" data-id="interview" data-title="Подготовка к Job Interview">
+                <img class="block" src="/images/interview.webp" alt="Lesson interview">
+                <p class="price block">2000 ₽ / час</p>
+            </div>
+        </div>
     </div>
 </article>
