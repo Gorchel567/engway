@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="interview" data-title="Подготовка к Job Interview">
                 <img class="block" src="/images/interview.webp" alt="Lesson interview">
-                <p class="price block">5100 ₽ / час</p>
+                <p class="price block">2000 ₽ / час</p>
             </div>
         </div>
     </div>
