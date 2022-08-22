@@ -19,6 +19,11 @@
                     <div class="col text-center">
                         <a href="mailto:lizabbet@yandex.ru" target="_blank" class="soc"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
                     </div>
+                    <div class="col text-center">
+                        <a href="https://spbrepetitor.ru/include/profrep.php?id_user=28046" target="_blank">
+                            <img src="/images/sbprepetitor.svg"  title="Репетиторы Москвы и области по всем предметам." alt="Репетит-Центр - база репетиторов, спортивных тренеров и инструкторов по вождению">
+                        </a>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col text-center">
