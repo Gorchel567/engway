@@ -30,7 +30,8 @@
 {{--                <img class="block" src="/images/lesson_four.png" alt="Lesson Four">--}}
 {{--                <p class="price block">Индивидуально</p>--}}
 {{--            </div>--}}
-
+        </div>
+        <div class="row lessons-container">
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="general" data-title="General English">
                 <img class="block" src="/images/lesson_general.webp" alt="Lesson general">
                 <p class="price block">1700 ₽ / час</p>
@@ -43,8 +44,6 @@
                 <img class="block" src="/images/lesson_special.webp" alt="Lesson special">
                 <p class="price block">2000 ₽ / час</p>
             </div>
-        </div>
-        <div class="row lessons-container">
             <div class="col-lg-4 col-6 text-center lessons-block" data-id="groups" data-title="Подготовка к ОГЭ (мини-группы)">
                 <img class="block" src="/images/lesson_groups.webp" alt="Lesson groups OGE">
                 <p class="price block">5100 ₽ / 6 занятий</p>
