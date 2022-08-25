@@ -40,7 +40,7 @@
                 <img class="block" src="/images/lesson_exam.webp" alt="Lesson exam">
                 <p class="price block">2000 ₽ / час</p>
             </div>
-            <div class="col-lg-4 offset-lg-0 offset-3 col-6 text-center lessons-block" data-id="special" data-title='English for specific purpose (ESP)'>
+            <div class="col-lg-4 offset-lg-0 col-6 text-center lessons-block" data-id="special" data-title='English for specific purpose (ESP)'>
                 <img class="block" src="/images/lesson_special.webp" alt="Lesson special">
                 <p class="price block">2000 ₽ / час</p>
             </div>
