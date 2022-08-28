@@ -82,12 +82,13 @@ header .phone {
 }
 
 #main-container-fluid .header-text h5 {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 50px;
+    font-size: 40px;
 }
 
 #main-container-fluid .header-text p {
     font-size: 25px;
+    margin-top: 25px;
 }
 
 @media (max-width: 768px) {
@@ -193,7 +194,7 @@ header .phone {
 }
 
 .lessons-container .block {
-    width: 400px;
+    width: inherit;
 }
 
 .lessons-container .price {

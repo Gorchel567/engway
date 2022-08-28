@@ -41,48 +41,49 @@
                             <option value="email">Email</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label for="experience">Ваш опыт изучения языка</label>
-                        <input type="text" name="experience" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="lesson_now">Занимаетесь ли вы языком сейчас</label>
-                        <input type="text" name="lesson_now" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="lesson_format">Какой формат заданий/занятий вам нравится?</label>
-                        <input type="text" name="lesson_format" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="dont_like">Что вам не очень нравится делать?</label>
-                        <input type="text" name="dont_like" class="form-control">
-                    </div>
+{{--                    <div class="form-group">--}}
+{{--                        <label for="experience">Ваш опыт изучения языка</label>--}}
+{{--                        <input type="text" name="experience" class="form-control">--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <label for="lesson_now">Занимаетесь ли вы языком сейчас</label>--}}
+{{--                        <input type="text" name="lesson_now" class="form-control">--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <label for="lesson_format">Какой формат заданий/занятий вам нравится?</label>--}}
+{{--                        <input type="text" name="lesson_format" class="form-control">--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <label for="dont_like">Что вам не очень нравится делать?</label>--}}
+{{--                        <input type="text" name="dont_like" class="form-control">--}}
+{{--                    </div>--}}
                     <div class="form-group">
                         <label for="purpose">Цель изучения языка</label><br/>
                         <select name="purpose" class="select2-input">
                             <option value="exam">Экзамены</option>
                             <option value="general">Общий английский</option>
                             <option value="esp">ESP</option>
+                            <option value="other">Другое</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label for="lesson_count">Сколько раз в неделю готовы заниматься с преподавателем и самостоятельно</label><br/>
-                        <select name="lesson_count" class="select2-input">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="interesting">Ваши интересы и хобби</label>
-                        <input type="text" name="interesting" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="expectations">Чего вы ожидаете от занятий?</label>
-                        <input type="text" name="expectations" class="form-control">
-                    </div>
+{{--                    <div class="form-group">--}}
+{{--                        <label for="lesson_count">Сколько раз в неделю готовы заниматься с преподавателем и самостоятельно</label><br/>--}}
+{{--                        <select name="lesson_count" class="select2-input">--}}
+{{--                            <option value="1">1</option>--}}
+{{--                            <option value="2">2</option>--}}
+{{--                            <option value="3">3</option>--}}
+{{--                            <option value="4">4</option>--}}
+{{--                            <option value="5">5</option>--}}
+{{--                        </select>--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <label for="interesting">Ваши интересы и хобби</label>--}}
+{{--                        <input type="text" name="interesting" class="form-control">--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <label for="expectations">Чего вы ожидаете от занятий?</label>--}}
+{{--                        <input type="text" name="expectations" class="form-control">--}}
+{{--                    </div>--}}
                     <div class="form-group">
                         <label for="lesson_time">Какое время для занятий предпочитаете?</label><br/>
                         <select name="lesson_time" class="select2-input">

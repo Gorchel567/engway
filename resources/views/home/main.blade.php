@@ -9,12 +9,12 @@
                 <div class="col header-text d-none d-md-block">
                     <h3 class="text-start mg-l-100">General English</h3>
                     <h3 class="text-center">English for Specific Purposes (ESP)</h3>
-                    <h3 class="text-end">Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)</h3>
+                    <h3 class="text-end">Exam Preparation (ОГЭ/ЕГЭ)</h3>
                 </div>
                 <div class="col d-lg-none xs-devices header-text text-center">
                     <h3>General English</h3>
                     <h3>English for specific purposes (ESP)</h3>
-                    <h3>Exam Preparation (ОГЭ/ЕГЭ/KET/PET/FCE)</h3>
+                    <h3>Exam Preparation (ОГЭ/ЕГЭ)</h3>
                 </div>
             </div>
             <div class="row d-lg-none xs-devices">
@@ -43,13 +43,13 @@
                         <h5 class="color-subbrand">Если хотите заговорить на английском с первых занятий, то вы в правильном месте :)
                         </h5>
                     </div>
-                    <div class="col text-start header-text">
+                    <div class="col text-start header-text d-none d-md-block d-lg-block d-xl-block">
                         <p>
                             Меня зовут Елизавета, вот уже более 6 лет я с большим удовольствием преподаю английский язык как детям, так и взрослым - индивидуально и в мини-группах.
                         </p>
-                        <p>
-                            Cо мной вы можете улучшить свой разговорный английский, подготовиться к международным  экзаменам (KET/PET/FCE) и ОГЭ/ЕГЭ, а также прокачать английский для работы.
-                        </p>
+{{--                        <p>--}}
+{{--                            Cо мной вы можете улучшить свой разговорный английский, подготовиться к международным  экзаменам (KET/PET/FCE) и ОГЭ/ЕГЭ, а также прокачать английский для работы.--}}
+{{--                        </p>--}}
                     </div>
                 </div>
                 <div class="offset-lg-1 col-3 logo text-center d-none d-md-block">
