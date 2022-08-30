@@ -36,9 +36,9 @@
                         <label for="social">Где удобно связаться?</label><br/>
                         <select name="social" class="select2-input form-control">
                             <option value="phone">Телефон</option>
-                            <option value="telegram">Телеграм</option>
-                            <option value="vk">Вконтакте</option>
-                            <option value="email">Email</option>
+                            <option value="telegram">Telegram</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="viber">Viber</option>
                         </select>
                     </div>
 {{--                    <div class="form-group">--}}
@@ -87,8 +87,8 @@
                     <div class="form-group">
                         <label for="lesson_time">Какое время для занятий предпочитаете?</label><br/>
                         <select name="lesson_time" class="select2-input">
-                            <option value="morning">Утро (8:00-12:00)</option>
-                            <option value="day">День (13:00-18:00)</option>
+                            <option value="morning">Утро (9:00-12:00)</option>
+                            <option value="day">День (12:00-17:00)</option>
 {{--                            <option value="evening">Вечер</option>--}}
                         </select>
                     </div>
