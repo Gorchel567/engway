@@ -14,7 +14,7 @@
                         <a class="nav-link" aria-current="page" href="/#diploma">Дипломы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#gallery">Галлерея</a>
+                        <a class="nav-link" href="/#gallery">Фото</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#about">Обо Мне</a>
