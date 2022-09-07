@@ -64,10 +64,10 @@ $(document).ready(function() {
         dropdownParent: $('#signup-modal .modal-body')
     });
 
-    $('body').on('submit', '#signup-form', function(e) {
+    $('body').on('click', '#signup-form-submit', function(e) {
         e.preventDefault();
         VK.Goal('lead');
 
-        $(this).submit();
+        $('signup-form').submit();
     })
 });
