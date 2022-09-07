@@ -63,4 +63,11 @@ $(document).ready(function() {
     $('.select2-input').select2({
         dropdownParent: $('#signup-modal .modal-body')
     });
+
+    $('body').on('submit', '#signup-form', function(e) {
+        e.preventDefault();
+        VK.Goal('lead');
+
+        $(this).submit();
+    })
 });
