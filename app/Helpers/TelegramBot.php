@@ -18,7 +18,7 @@ class TelegramBot
     public static function getUpdates()
     {
         try {
-            $telegram = new Api(env('2137294202:AAHyWoOCKHX_7PCGXtXb7gS-UJCPPoZzwQ4'));
+            $telegram = new Api(env('TELEGRAM_BOT_TOKEN'));
             $response = $telegram->getUpdates();
 
             dd($response);
@@ -34,7 +34,7 @@ class TelegramBot
     public static function send($chat_id, $message)
     {
         try {
-            $telegram = new Api(env('2137294202:AAHyWoOCKHX_7PCGXtXb7gS-UJCPPoZzwQ4'));
+            $telegram = new Api(env('TELEGRAM_BOT_TOKEN'));
             $telegram->sendMessage(
                 [
                     'chat_id' => $chat_id,
