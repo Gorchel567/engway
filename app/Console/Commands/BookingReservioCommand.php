@@ -15,7 +15,7 @@ class BookingReservioCommand extends Command
     /**
      * @var string
      */
-    protected $signature = 'booking:reservio';
+    protected $signature = 'booking:reservio {debug?}';
 
     /**
      * @var string
@@ -28,6 +28,14 @@ class BookingReservioCommand extends Command
     public function handle()
     {
         $now = Carbon::now('Africa/Nairobi');
+
+        $debug = $this->argument('debug');
+
+        if (!empty($debug)) {
+            $msg = 'Проверка даннных '.$now->format('Y-m-d');
+            TelegramBot::send(env('TELEGRAM_RESERVIO_CHAT_TOKEN'), $msg);
+        }
+
         $finishDate = clone $now;
         $finishDate->addDays(static::CHECK_DAYS);
 
