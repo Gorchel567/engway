@@ -32,6 +32,6 @@ class LastDaysYear extends Command
 
         $diff = $newYear->diffInDays($now, true);
 
-        TelegramBot::send(env('TELEGRAM_NEW_YEAR_CHAT_TOKEN'), 'До Нового Годв осталось '.$diff.' дней! С наступающим!');
+        TelegramBot::send(env('TELEGRAM_NEW_YEAR_CHAT_TOKEN'), 'До Нового Года осталось '.$diff.' дней! С наступающим!');
     }
 }
