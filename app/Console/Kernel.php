@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\BookingReservioCommand::class,
+        \App\Console\Commands\LastDaysYear::class,
     ];
 
     /**

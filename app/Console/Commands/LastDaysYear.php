@@ -27,12 +27,11 @@ class LastDaysYear extends Command
      */
     public function handle()
     {
-
         $newYear = Carbon::create(2023,1,2);
         $now = Carbon::now('Africa/Nairobi');
 
         $diff = $newYear->diffInDays($now, true);
 
-        TelegramBot::send(env('TELEGRAM_NEW_YEAR_CHAT_TOKEN'), 'До Нового Годв осталось '.$diff);
+        TelegramBot::send(env('TELEGRAM_NEW_YEAR_CHAT_TOKEN'), 'До Нового Годв осталось '.$diff.' дней! С наступающим!');
     }
 }
