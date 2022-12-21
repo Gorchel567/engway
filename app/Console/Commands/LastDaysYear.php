@@ -27,7 +27,7 @@ class LastDaysYear extends Command
      */
     public function handle()
     {
-        $newYear = Carbon::create(2023,1,2);
+        $newYear = Carbon::create(2023,1,1);
         $now = Carbon::now('Africa/Nairobi');
 
         $diff = $newYear->diffInDays($now, true);
