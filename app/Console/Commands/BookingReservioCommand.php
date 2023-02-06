@@ -39,14 +39,13 @@ class BookingReservioCommand extends Command
         $finishDate = clone $now;
         $finishDate->addDays(static::CHECK_DAYS);
 
-        $url = 'https://api.reservio.com/v2/businesses/09250556-2450-437f-aede-82e78712f114/availability/booking-days';
+        $url = 'https://ambasada-r-moldova-in-f-rusa.reservio.com/api/v2/businesses/09250556-2450-437f-aede-82e78712f114/availability/booking-days';
         $params = [
             'filter[from]' => $now->format('Y-m-d'),
             'filter[to]' => $finishDate->format('Y-m-d'),
-            'filter[slotSize]' => 900,
-            'filter[resourceId]' => 'eb4e43fe-9b6d-4dfd-99ad-451ca81bb630',
-            'filter[serviceId]' => 'c2fbd5eb-6966-4ead-b7c1-1a0eb65cf295',
-            'sort' => '-createdAt',
+            'filter[resourceId]' => '',
+            'filter[serviceId]' => '63fe0e8c-b127-43e3-874a-bac9c660045b',
+            'ignoreBookingBoundaries' => 0,
             'page[limit]' => static::CHECK_DAYS
         ];
 
