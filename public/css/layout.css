@@ -199,10 +199,15 @@ header .phone {
 
 .lessons-container .price {
     font-weight: bold;
-    font-size: 20px;
-    padding: 20px 0px;
+    font-size: 18px;
+    padding: 20px 5px;
     background-color: #efefef;
     display: inline-block;
+    min-height: 100px;
+}
+
+.pd-30 {
+    padding-top: 30px !important;
 }
 
 .lessons-container > div {
@@ -232,6 +237,18 @@ header .phone {
     background-color: rgba(239,239,239,0.3);
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .lessons-container .price {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .lessons-container .price {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
     .lessons-container .block {
         width: 100%;
@@ -239,7 +256,8 @@ header .phone {
 
     .lessons-container .price {
         font-size: 15px;
-        padding: 15px 0px;
+        padding: 15px 0px !important;
+        min-height: 0px;
     }
 }
 
